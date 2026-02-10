@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react'
 import "./qualification.css"
 
@@ -179,7 +180,22 @@ const Qualification = () => {
                           </div>
                       </div>
 
+                     {/* ML Coreizi new updated chnaged to jivan */}
+                      <div className='qualification__data'>
+                          <div>
+                              <h3 className='qualification__title'>UI/UX Developer Intern</h3>
+                              <span className='qualification__subtitle'>Jivan Health</span>
+                              <div className='qualification__calender'>
+                                  <i className='uil uil-calendar-alt'> </i>
+                                  Jun 2024 - July 2024
+                              </div>
+                          </div>
 
+                          <div>
+                              <span className='qualification__rounder'></span>
+                              <span className='qualification__line'></span>
+                          </div>
+                      </div>
 
                        {/* ML */}
                       <div className='qualification__data data qualification_data-right'>
